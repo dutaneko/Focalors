@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ocean Portfolio</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script/script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌊 Focalors</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn-primary">Hire Me</button>
+      <img src="https://i.pinimg.com/736x/84/21/55/842155535ed31e93162b3da852d85c78.jpg" alt="profile" class="profile">
+      <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Hello, I’m <span class="highlight">Focalors</span></h1>
+      <p>Dewi Keadilan dan mantan Archon Hydro dari Fontaine dalam game Genshin Impact</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Get Started</button>
+        <button class="btn-secondary">Learn More</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="img/logo.png" alt="Laptop illustration">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Aku adalah Focalors, Dewa Keadilan, Archon Hydro terakhir dari Fontaine. Sebelum mengambil takhta ini, aku hanyalah seorang oceanid, makhluk dari air yang bermimpi menjadi manusia.</p>
+        <ul class="skills">
+          <li>Furina</li>
+          <li>Kindreds</li>
+          <li>God of Justice</li>
+          <li>Mirror-me</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="https://i.pinimg.com/736x/84/21/55/842155535ed31e93162b3da852d85c78.jpg" alt="My Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="skills-container">
+      <h2>My Skills</h2>
+      <p class="skills-subtitle">Furina memiliki tiga Talenta tempur dan tiga Talenta Pasif yang memengaruhi kemampuannya secara keseluruhan.</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Salon Solitaire</h3>
+          <p>Keterampilan ini adalah inti dari cara bermain Furina, yang memungkinkannya beralih antara peran Sub-DPS dan penyembuh.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Let the People Rejoice</h3>
+          <p>Kemampuan ini adalah alat buff utama Furina yang dapat meningkatkan kerusakan seluruh tim.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Ousia dan Pneuma</h3>
+          <p>Furina memiliki mekanisme unik yang memungkinkannya berganti mode Arkhe (Ousia dan Pneuma) dengan menggunakan Serangan Charged.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Unheard Confession</h3>
+          <p>Talenta pasif ini meningkatkan efektivitas Keterampilan Elemen Furina, membuatnya semakin kuat dengan meningkatkan Max HP-nya.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <p class="projects-subtitle">Sebagai Focalors yang menciptakan Furina, proyek utamanya dapat dipahami sebagai tiga hal yang berkaitan erat dengan rencana besar yang ia laksanakan selama 500 tahun.</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://gamebrott.com/wp-content/uploads/2024/10/Untitled-1-6-jpg-750x375.webp" alt="Project 1">
+          <div class="project-content">
+            <h3>Sandiwara 500 tahun</h3>
+            <p>Ini adalah proyek terbesar dan paling fundamental.</p>
+            <a href="#" class="btn-view">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://i.pinimg.com/736x/78/c7/1b/78c71b68de1af836abf77feca26bd3d4.jpg" alt="Project 2">
+          <div class="project-content">
+            <h3>Mengumpulkan Indemnitium</h3>
+            <p>Proyeknya adalah menggunakan Oratrice untuk mengumpulkan energi yang kuat.</p>
+            <a href="#" class="btn-view">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://upload-os-bbs.hoyolab.com/upload/2023/11/21/81920340/4bcb02f4ac404cf2cc6c05c8ac80d837_4130534652056115065.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70" alt="Project 3">
+          <div class="project-content">
+            <h3>Mengembalikan otoritas Hydro</h3>
+            <p>Mengembalikan otoritas unsur air kepada naga Hydro yang bereinkarnasi, Neuvillette.</p>
+            <a href="#" class="btn-view">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+  <div class="contact-container">
+    <form id="contact-form" class="contact-form">
+      <h2>Contact Me</h2>
+      <p>Mungkin kini giliran kita untuk membicarakan hal yang sungguh nyata.</p>
+
+      <input type="text" name="user_name" placeholder="Nama Anda" required>
+      <input type="email" name="user_email" placeholder="Email Anda" required>
+      <textarea name="message" placeholder="Pesan Anda..." required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+
+    <div class="contact-info">
+      <img class="conpro" src="https://i.pinimg.com/736x/84/21/55/842155535ed31e93162b3da852d85c78.jpg" alt="Contact">
+      <ul>
+        <li><i class="fas fa-envelope"></i>focalors@gmail.com</li>
+        <li><i class="fas fa-phone"></i> +62 812-3456-7890</li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>MyPortfolio</h3>
+        <p>Kemampuan untuk memerankan peran Archon Hydro, dengan segala keagungannya, selama 500 tahun tanpa pernah terungkap adalah bukti dari bakat akting yang tak tertandingi.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>APP</h4>
+          <a href="#">Trade</a>
+          <a href="#">Explore</a>
+        </div>
+        <div>
+          <h4>NEED HELP?</h4>
+          <a href="#">Contact Us</a>
+          <a href="#">Blog</a>
+        </div>
+        <div>
+          <h4>COMMUNITY</h4>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>MyPortfolio. All Rights Reserved © 2025.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
